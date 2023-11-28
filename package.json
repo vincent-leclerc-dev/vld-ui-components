@@ -1,7 +1,7 @@
 {
   "name": "@vleclerc/vld-ui-components",
-  "version": "1.0.4",
-  "description": "A component library",
+  "version": "1.0.5",
+  "description": "A ui component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
