@@ -1,10 +1,10 @@
 {
-  "name": "@vleclerc/vld-ui-components",
+  "name": "vld-ui-components",
   "version": "1.0.7",
   "description": "An UI component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/types.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
@@ -24,7 +24,7 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.23.3",
